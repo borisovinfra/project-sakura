@@ -2,6 +2,18 @@
 
 > 安全性・プライバシー・高可用性・信頼性を重視した分散インフラストラクチャ。
 
+![Project Sakura Architecture](assets/project-sakura-architecture-v3.png)
+
+## Quick Facts
+
+* 🌍 分散環境向けに設計
+* 🔐 セキュリティファースト設計
+* 📊 可観測性主導の運用
+* ♻️ 実運用に基づく障害復旧
+* 🇯🇵 日本語・英語ドキュメント対応
+
+---
+
 Project Sakura は、実環境における接続性、セキュリティ、可用性、プライバシーの課題を解決するために設計・構築され、継続的に改善されているインフラストラクチャ・エンジニアリング・プロジェクトです。
 
 このプロジェクトでは、以下の実践的な技術領域を扱っています：
@@ -14,6 +26,32 @@ Project Sakura は、実環境における接続性、セキュリティ、可�
 * モニタリングと可観測性
 * パフォーマンス最適化
 * レジリエンス設計
+
+---
+
+# 📁 リポジトリ構成
+
+```text id="90807"
+project-sakura/
+├── README.md
+├── README_JP.md
+├── LICENSE
+├── .gitignore
+├── assets/
+├── docs/
+│   ├── architecture.md
+│   ├── architecture_JP.md
+│   ├── security-model.md
+│   ├── security-model_JP.md
+│   ├── lessons-learned.md
+│   ├── lessons-learned_JP.md
+│   ├── metrics.md
+│   ├── metrics_JP.md
+│   ├── roadmap.md
+│   ├── roadmap_JP.md
+│   └── diagrams/
+└── examples/
+```
 
 ---
 
@@ -56,6 +94,12 @@ Project Sakura は、複雑なネットワーク環境における接続性、�
 * メトリクス収集
 * ログ集約
 * アラート通知
+
+---
+
+## 📚 追加ドキュメント
+
+- [Node Inventory](docs/node-inventory.md)
 
 ---
 

@@ -2,6 +2,18 @@
 
 > Secure. Private. Resilient. Reliable Distributed Infrastructure.
 
+![Project Sakura Architecture](assets/project-sakura-architecture-v3.png)
+
+## Quick Facts
+
+* 🌍 Designed for distributed environments
+* 🔐 Security-first architecture
+* 📊 Observability-driven operations
+* ♻️ Real-world incident recovery
+* 🇯🇵 English + Japanese documentation
+
+---
+
 Project Sakura is a real-world infrastructure engineering project designed, built, and continuously improved to provide secure, resilient, and privacy-focused connectivity across distributed environments.
 
 This project demonstrates practical experience in:
@@ -14,6 +26,32 @@ This project demonstrates practical experience in:
 * Monitoring and Observability
 * Performance Optimization
 * Resilience Engineering
+
+---
+
+# 📁 Repository Structure
+
+```text
+project-sakura/
+├── README.md
+├── README_JP.md
+├── LICENSE
+├── .gitignore
+├── assets/
+├── docs/
+│   ├── architecture.md
+│   ├── architecture_JP.md
+│   ├── security-model.md
+│   ├── security-model_JP.md
+│   ├── lessons-learned.md
+│   ├── lessons-learned_JP.md
+│   ├── metrics.md
+│   ├── metrics_JP.md
+│   ├── roadmap.md
+│   ├── roadmap_JP.md
+│   └── diagrams/
+└── examples/
+```
 
 ---
 
@@ -56,6 +94,12 @@ The architecture consists of multiple independent layers:
 * Metrics collection
 * Log aggregation
 * Alerting
+
+---
+
+## 📚 Additional Documentation
+
+- [Node Inventory](docs/node-inventory.md)
 
 ---
 
