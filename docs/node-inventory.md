@@ -1,57 +1,62 @@
 # Node Inventory
 
-## Sakura
+## Policy Node
 
 Platform:
-- Keenetic Giga
+
+* Router Platform
 
 Role:
-- Policy Engine
-- Routing Control
+
+* Policy Engine
+* Routing Control
 
 ---
 
-## Russinka
+## Transport Node
 
 Role:
-- Transport / Relay Node
+
+* Transport / Relay Node
 
 Services:
-- SSH
-- Xray Relay
-- Mita
-- Mieru
+
+* Secure Transport
+* Relay Services
+* Connectivity Layer
 
 Status:
-- Production
+
+* Production
 
 ---
 
-## Pearl
+## Security Edge Node
 
 Role:
-- Edge / Security Node
+
+* Edge / Security Node
 
 Services:
-- Xray
-- Unbound DNS
-- WARP
-- AmneziaWG
-- Mita
-- Fail2Ban
-- SSH
+
+* Edge Gateway
+* Recursive DNS
+* Privacy Services
+* Secure Tunnel Services
+* Intrusion Prevention
 
 Status:
-- Production
+
+* Production
 
 ---
 
 ## Design Principle
 
-Sakura controls policy.
+Policy Node controls routing and traffic policy.
 
-Russinka transports traffic.
+Transport Node provides connectivity and transport services.
 
-Pearl provides edge connectivity and security services.
+Security Edge Node provides edge connectivity and security functions.
 
 Node responsibilities are intentionally separated.
