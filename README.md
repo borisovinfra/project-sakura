@@ -4,6 +4,22 @@
 
 ![Project Sakura Architecture](assets/project-sakura-architecture-v3.png)
 
+
+## Project Sakura v3.1 Update
+
+Project Sakura v3.1 extends the architecture with:
+
+- MIERU — AI Observability Layer
+- MITA — AI Threat Analysis Layer
+- PlayStation and Xbox connectivity support
+- Console-aware routing visibility
+- NAT behavior analysis
+- Low-latency connectivity monitoring
+
+MIERU and MITA do not replace the core Sakura node roles. They provide observability, threat analysis, and operational intelligence around the existing infrastructure.
+
+For details, see [Architecture v3.1](docs/architecture-v3.1.md).
+
 ## Quick Facts
 
 * 🌍 Designed for distributed environments
