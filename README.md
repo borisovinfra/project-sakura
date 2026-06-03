@@ -2,7 +2,7 @@
 
 > Secure. Private. Resilient. Reliable Distributed Infrastructure.
 
-![Project Sakura Architecture](assets/project-sakura-architecture-v3.png)
+![Project Sakura Architecture](assets/project-sakura-architecture-v3.1.png)
 
 
 ## Project Sakura v3.1 Update
