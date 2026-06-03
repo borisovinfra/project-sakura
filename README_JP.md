@@ -2,7 +2,26 @@
 
 > 安全性・プライバシー・高可用性・信頼性を重視した分散インフラストラクチャ。
 
-![Project Sakura Architecture](assets/project-sakura-architecture-v3.png)
+![Project Sakura Architecture](assets/project-sakura-architecture-v3.1.png)
+
+## Project Sakura v3.1
+
+Project Sakura v3.1 では、既存アーキテクチャをさらに発展させ、以下の機能を追加しました。
+
+* 👁️ MIERU — AIベースの可観測性レイヤー
+* 🛡️ MITA — AIベースの脅威分析レイヤー
+* 🎮 PlayStation および Xbox サポート
+* 📊 コンソール接続性の可視化
+* 🌐 NAT挙動の分析
+* ⚡ 低遅延接続の監視
+
+MIERU と MITA は既存のノード構成を変更するものではありません。
+
+これらは Project Sakura の可観測性、セキュリティ分析、および運用インテリジェンスを強化するための補助レイヤーです。
+
+詳細は以下を参照してください。
+
+* `docs/architecture-v3.1.md`
 
 ## Quick Facts
 
